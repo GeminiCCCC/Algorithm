@@ -1,32 +1,34 @@
 **template:**
 
-```
-# don't forget to initialize each component's parent to its self
-parents = [0,......n-1]
-ranks = [0]*n
+```python
+class DSU:
+    def __init__(self):
+      # don't forget to initialize each component's parent to its self
+      self.parents = [0,......n-1]
+      self.ranks = [0]*n
 
-def find(x):
-  # path compression
-  if parents[x] != x:
-    parents[x] = find(parents[x])
+    def self.find(x):
+        # path compression
+        if parents[x] != x:
+          parents[x] = find(parents[x])
 
-  return parents[x]
+        return parents[x]
 
-def union(x, y):
-  r1 = find(x)
-  r2 = find(y) 
+    def self.union(x, y):
+        r1 = find(x)
+        r2 = find(y) 
 
-  # if root are the same, already unioned before, no need to continue
-  if r1 != r2:
-    # always assign the lower rank to higher rank
-    if ranks[r1] > ranks[r2]:
-      parents[r2] = r1
-    elif ranks[r1] < ranks[r2]:
-      parents[r1] = r2
-    else:
-      # if ranks are the same, assign either one is ok
-      parents[r2] = r1
-      ranks[r1] += 1
+        # if root are the same, already unioned before, no need to continue
+        if r1 != r2:
+            # always assign the lower rank to higher rank
+            if ranks[r1] > ranks[r2]:
+                parents[r2] = r1
+            elif ranks[r1] < ranks[r2]:
+                parents[r1] = r2
+            else:
+                # if ranks are the same, assign either one is ok
+                parents[r2] = r1
+                ranks[r1] += 1
 
 ```
 
