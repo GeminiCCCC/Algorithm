@@ -33,23 +33,23 @@ class DSU:
 ```
 
 **1. to find if a graph has cycle**
-```
+```python
 def hasCycle(edges):
-  # build the graph from edges, if we are looping all the neighbors here, we will only create one edge for we can simply loop through the edges
-  #graph = defaultdict(list)
+    # build the graph from edges, if we are looping all the neighbors here, we will only create one edge for we can simply loop through the edges
+    #graph = defaultdict(list)
 
-  for u, v in edges:
+    for u, v in edges:
     r1 = find(u)
     r2 = find(v)
     # this is because before union the new node, the root of the new node will always be itself, and we are doing the dfs here, if there is a cycle, by the time we see the neighbor second time, the neighbor would already had been unioned, which will give us r1 == r2
     if r1 == r2:
-      # has cycle
-      return True
+        # has cycle
+        return True
     else:
-      # or we can make union return True/False and save the if check here
-      union(r1, r2)
+        # or we can make union return True/False and save the if check here
+        union(r1, r2)
 
-  return False
+    return False
 ```
 
 **2. use size for the component to solve problem**
