@@ -6,6 +6,6 @@ How can you tell it's a min_max problem?
 2) Take turns 
 3) Both play optimally
 
-Use max relative score (max winning score) to solve it.
+Use max relative score (max winning score) to solve it, and traverse from end
 
 1460. https://leetcode.com/problems/stone-game-iii/
