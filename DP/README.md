@@ -13,3 +13,7 @@ And once we get the final answer for the most scores player A can win against pl
 1460 - https://leetcode.com/problems/stone-game-iii/
 
 1140 - https://leetcode.com/problems/stone-game-ii/
+
+**2. dp + graph (edges are the possible scenarios at current state)**
+
+568 - https://leetcode.com/problems/maximum-vacation-days/
