@@ -17,3 +17,11 @@ And once we get the final answer for the most scores player A can win against pl
 **2. dp + graph (edges are the possible scenarios at current state)**
 
 568 - https://leetcode.com/problems/maximum-vacation-days/
+
+**3. For problem that has two moving points, then need to have three/four dimension dp, and for the problem start from one point and the stop point is not fixed, then top down DP is better**
+
+741 - https://leetcode.com/problems/cherry-pickup/ # for cherry pick problems: 1. when two people on the same cell, only collect cherry once. 2 use -sys.maxsize to indicate invalid path
+
+1463 - https://leetcode.com/problems/cherry-pickup-ii/
+
+1320 - https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/
