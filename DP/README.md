@@ -29,3 +29,9 @@ And once we get the final answer for the most scores player A can win against pl
 1463 - https://leetcode.com/problems/cherry-pickup-ii/
 
 1320 - https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/
+
+**4. String DP problems**
+
+4.1 singe string: with in a range, split the range into all possible two sub strings, and calculate the first substring result(find a way to calculate the optimal result) and use dp to calculate the rest substring
+
+1531 - https://leetcode.com/problems/string-compression-ii/
