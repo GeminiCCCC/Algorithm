@@ -14,6 +14,10 @@ And once we get the final answer for the most scores player A can win against pl
 
 1140 - https://leetcode.com/problems/stone-game-ii/
 
+**1.1 another kind of min max problem**
+
+375 - https://leetcode.com/problems/guess-number-higher-or-lower-ii/
+
 **2. dp + graph (edges are the possible scenarios at current state)**
 
 568 - https://leetcode.com/problems/maximum-vacation-days/
