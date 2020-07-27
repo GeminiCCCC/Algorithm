@@ -7,6 +7,10 @@ Need to get all the valid substrings first, and then the problem becomes the sch
 
 Others:
 
-659. https://leetcode.com/problems/split-array-into-consecutive-subsequences/
-1057. https://leetcode.com/problems/campus-bikes/
-678. https://leetcode.com/problems/valid-parenthesis-string/solution/
+659 - https://leetcode.com/problems/split-array-into-consecutive-subsequences/
+
+1057 - https://leetcode.com/problems/campus-bikes/
+
+678 - https://leetcode.com/problems/valid-parenthesis-string/solution/
+
+527 - https://leetcode.com/problems/word-abbreviation/
