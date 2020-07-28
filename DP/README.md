@@ -36,6 +36,6 @@ And once we get the final answer for the most scores player A can win against pl
 
 1531 - https://leetcode.com/problems/string-compression-ii/
 
-**5. DP to calculate all possible ways with 2D pre sum**
+**5. DP to calculate all possible ways with 2D pre sum, 2D pre sum is the way to get counts with in a sub 2D matrix**
 
 1444 - https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
