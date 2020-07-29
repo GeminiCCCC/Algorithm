@@ -14,3 +14,7 @@ Others:
 678 - https://leetcode.com/problems/valid-parenthesis-string/solution/
 
 527 - https://leetcode.com/problems/word-abbreviation/
+
+**1. use greedy idea to fill in the idle space to calculate min CPU time, first we get the total minimum idle space with most refrequent task, and then greedily fill in the idle space with the remaining tasks**
+
+621 - https://leetcode.com/problems/task-scheduler/
