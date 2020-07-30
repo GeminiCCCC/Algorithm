@@ -39,3 +39,7 @@ And once we get the final answer for the most scores player A can win against pl
 **5. DP to calculate all possible ways with 2D pre sum, 2D pre sum is the way to get counts with in a sub 2D matrix**
 
 1444 - https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
+
+**6. Buy and Sell Stock problems, always use buy[i] and sell[i] to store: by index i and last transaction was buy/sell, what's the max profit. And the answer is sell[n-1]**
+
+309 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
