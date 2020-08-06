@@ -76,6 +76,7 @@ for i in range(1, n+1) # n is the length of items
 
 return dp[c] 
 ```
+494 - https://leetcode.com/problems/target-sum/ how to convert positive/negative number to 0-1 knapsack
 
 416 - https://leetcode.com/problems/partition-equal-subset-sum/
 
