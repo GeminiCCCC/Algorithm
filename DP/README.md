@@ -80,6 +80,8 @@ return dp[c]
 
 416 - https://leetcode.com/problems/partition-equal-subset-sum/
 
+871 - https://leetcode.com/problems/minimum-number-of-refueling-stops/ variation of 0-1 knapsack
+
 7.1.1 2D 0-1:
 
 Have two capacities value, just need to define 2D dp array and for each item, get weight for each capacity
