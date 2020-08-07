@@ -116,3 +116,9 @@ return dp[c]
 ```
 
 322 - https://leetcode.com/problems/coin-change/
+
+**8. Bit trick + DP**
+
+To union two sets of items, we can convert each set to its binary format and do | for two sets
+
+1125 - https://leetcode.com/problems/smallest-sufficient-team/
