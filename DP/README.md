@@ -122,3 +122,10 @@ return dp[c]
 To union two sets of items, we can convert each set to its binary format and do | for two sets
 
 1125 - https://leetcode.com/problems/smallest-sufficient-team/
+
+**9. Current color/number cannot be the same as preivous one( or can only has k consecutive times)**
+
+for k consecutive times, we will need to add another dimension for k. And when k = 1 this is the special case, it means that we can get to k=1 from all previous state as long as the current number is not the same as previous number
+
+1223 - https://leetcode.com/problems/dice-roll-simulation/
+
