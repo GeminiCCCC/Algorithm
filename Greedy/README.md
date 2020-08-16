@@ -24,3 +24,11 @@ Others:
 use stack to keep track of how many consecutive Ds we have seen so far, and reverse the numbers when we see an 'I'
 
 484 - https://leetcode.com/problems/find-permutation/
+
+**3. interval problems**
+
+a. ususally use greedy idea to solve it.
+
+b. sort by end time: use the interval ending earliest will give us more room to fill rest intervals.
+
+435 - https://leetcode.com/problems/non-overlapping-intervals/
