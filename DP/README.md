@@ -44,6 +44,11 @@ And once we get the final answer for the most scores player A can win against pl
 
 309 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 
+if you only allow to do k transactions, then need to have 2nd dimension for buy and sell dp array, and notice that to calculate sell[i][k], we should use buy[i-1][k], not buy[i-1][k-1] becasue buy stock/sell stock is considered as one transaction.
+
+123 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+
+
 **7. knapsack**
 
 7.1 0-1
