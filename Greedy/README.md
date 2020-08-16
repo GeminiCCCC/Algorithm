@@ -18,3 +18,9 @@ Others:
 **1. use greedy idea to fill in the idle space to calculate min CPU time, first we get the total minimum idle space with most refrequent task, and then greedily fill in the idle space with the remaining tasks**
 
 621 - https://leetcode.com/problems/task-scheduler/
+
+**2. use greedy idea to find the smallest permutation from 1 to n based on 'D' or 'I'**
+
+use stack to keep track of how many consecutive Ds we have seen so far, and reverse the numbers when we see an 'I'
+
+484 - https://leetcode.com/problems/find-permutation/
