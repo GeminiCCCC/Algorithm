@@ -136,11 +136,37 @@ for k consecutive times, we will need to add another dimension for k. And when k
 
 **10. minimum swaps to make two list strictly increasing**
 
-A[i] > A[i-1] and B[i] > B[i-1]
-
+A[i] > A[i-1] and B[i] > B[i-1]  
 A[i] > B[i-1] and B[i] > A[i-1]
 
 need to use two dp arrays, swap[i] and not_swap[i], because swap/not_swap will have different impact (similar like stocks problems, sell/not sell)
 
 801 - https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+
+**11. greedy + dp**
+
+1553 - https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
+
+**12. Palindrome**
+
+Longest Palindrom substring:
+
+dp[i][j] means true/false if i...j is palindrom
+
+dp[i][j] = true if s[i] == s[j] and (j-i < 3 or dp[i+1][j-1] = true  
+and if dp[i][j] is true, update the result if j-i+1 > ans  
+5 - https://leetcode.com/problems/longest-palindromic-substring/solution/
+
+Longest Palindrome subsequence: 
+
+dp[i][j] means the longest subsequence length so far
+dp[i][j] = 0/1 when s[i] == s[j] and j-i < 2  
+dp[i][j] = max(dp[i+1][j], d[i][j-1] when s[i] != s[j]  
+516 - https://leetcode.com/problems/longest-palindromic-subsequence/
+
+Smallest insert steps to make Palindrome:  
+a. use insert action  
+b. calculate Longest Palindrom subsequence of s, and ans = len(s) - LPS  
+1312 - https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+
 
