@@ -169,4 +169,9 @@ a. use insert action
 b. calculate Longest Palindrom subsequence of s, and ans = len(s) - LPS  
 1312 - https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
+**13. Graph + dp**
+
+dp[i][j] = at ith step, ending at j node, minimum cost. And to reconstruct the path, we need another parents array, everytime we find a better path for dp[i][v], we update the parents[i][v]  
+1548 - https://leetcode.com/problems/the-most-similar-path-in-a-graph/
+
 
