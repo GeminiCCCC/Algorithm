@@ -55,3 +55,8 @@ def hasCycle(edges):
 **2. use size for the component to solve problem**
 
 803. https://leetcode.com/problems/bricks-falling-when-hit/
+
+**3. maintain the groupCount while doing the union**
+
+besides union find we can also maintain the first and last count of each group because when getting left and right side count, we will only use first or last element  
+1562 - https://leetcode.com/problems/find-latest-group-of-size-m/
