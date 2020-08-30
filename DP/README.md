@@ -174,4 +174,7 @@ b. calculate Longest Palindrom subsequence of s, and ans = len(s) - LPS
 dp[i][j] = at ith step, ending at j node, minimum cost. And to reconstruct the path, we need another parents array, everytime we find a better path for dp[i][v], we update the parents[i][v]  
 1548 - https://leetcode.com/problems/the-most-similar-path-in-a-graph/
 
+**14. To check length of positive product, need to maintain positive[i] and negative[i] dp array, because previouly negative length could become positive length later**
+
+1567 - https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/
 
