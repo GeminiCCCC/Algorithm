@@ -2,4 +2,4 @@
 
 **1. use BST to find neighbors on the left and right for current number**
 
-220 - https://leetcode.com/problems/contains-duplicate-iii/
+220 - https://leetcode.com/problems/contains-duplicate-iii/  (jave)
