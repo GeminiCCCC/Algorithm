@@ -60,3 +60,13 @@ def hasCycle(edges):
 
 besides union find we can also maintain the first and last count of each group because when getting left and right side count, we will only use first or last element  
 1562 - https://leetcode.com/problems/find-latest-group-of-size-m/
+
+**4. use union find class to build a graph**
+
+a. when union two nodes increase the edge by 1  
+b. when no need to union two nodes, it means that this edge can be skipped/removed  
+c. when have edge type for different person, create new DSU instance for each person, maintain a graph for each person  
+d. use greedy idea to process edge type for both person first  
+e. in the end if the edges in the DSU class == n - 1, then the graph is traversable
+
+1579 - https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
