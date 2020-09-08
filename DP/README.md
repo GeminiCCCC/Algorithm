@@ -178,3 +178,8 @@ dp[i][j] = at ith step, ending at j node, minimum cost. And to reconstruct the p
 
 1567 - https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/
 
+**15. when doing top down DP for string insert/delete/replace**
+
+use dp(index, numOfStr) where index is the current index at originial string, numOfStr is the string length we have processes so far, the reason is because when is the insert case, index will stay the same but numOfStr will increase, just like we processed the new inserted char this time, which means the next dp call will still process index letter from the original string  
+420 - https://leetcode.com/problems/strong-password-checker/
+
