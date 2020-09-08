@@ -32,3 +32,8 @@ a. ususally use greedy idea to solve it.
 b. sort by end time: use the interval ending earliest will give us more room to fill rest intervals.
 
 435 - https://leetcode.com/problems/non-overlapping-intervals/
+
+**4. use greedy + pq inside hash table to solve problem**
+
+use hash table: key is the ending number, value is the pq of the lengths who is ending with the key, for each num find the pq ending list, and then get the smallest length  
+659 - https://leetcode.com/problems/split-array-into-consecutive-subsequences/
