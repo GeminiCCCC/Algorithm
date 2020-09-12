@@ -183,3 +183,9 @@ dp[i][j] = at ith step, ending at j node, minimum cost. And to reconstruct the p
 use dp(index, numOfStr) where index is the current index at originial string, numOfStr is the string length we have processes so far, the reason is because when is the insert case, index will stay the same but numOfStr will increase, just like we processed the new inserted char this time, which means the next dp call will still process index letter from the original string  
 420 - https://leetcode.com/problems/strong-password-checker/
 
+**16. how to handle 0 and negative product when getting the biggest product from a list**
+
+a. compare with current number to handle previous product result is 0  
+b. besides max_product, also maintaining min_product for each position, so that later on we might need to multiple with the min_product to handle the negative product case  
+152 - https://leetcode.com/problems/maximum-product-subarray/
+
