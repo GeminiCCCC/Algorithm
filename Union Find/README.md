@@ -70,3 +70,8 @@ d. use greedy idea to process edge type for both person first
 e. in the end if the edges in the DSU class == n - 1, then the graph is traversable
 
 1579 - https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
+
+**5. use union find to build MST (minimum spinning tree)  - Kruskal algorithm**
+
+build weighted edges, sort edges by weight, union edge one by one, only add weight when union happen  
+1584 - https://leetcode.com/problems/min-cost-to-connect-all-points/
