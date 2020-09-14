@@ -9,3 +9,8 @@ b. if need to get next combination, need to use index_map and find the first let
 **2. when check the substring include all appearance of a letter, preprocess the last index for each letter**
 
 763 - https://leetcode.com/problems/partition-labels/
+
+**3. convert s to t**
+
+a. same length and sort sub string, instead sorting we should think this problem by trying to move the cur char of t to the beginning the updated s (if there is no smaller number before cur char in s)  
+1585 - https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/
