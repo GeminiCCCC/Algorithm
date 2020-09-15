@@ -20,3 +20,8 @@ sum = pre_sum[i][j] - pre_sum[i+l][j] - pre_sum[i][j+l] + pre_sum[i+l][j+l]
 ```
 
 1292 - https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+
+**3. How to settle debts between people with min transactions?**
+
+use DFS + Backtracking with person idx as parameter, for current person (idx), find the next person whose debt has opposite sign and always clear the current person's debt and then move the idx forward by one, because after the current transaction, 0 - idx are all settled, so that we can simply keep going forward. And the base case is when idx == n which means everyone is settled  
+465 - https://leetcode.com/problems/optimal-account-balancing/
