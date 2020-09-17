@@ -189,3 +189,8 @@ a. compare with current number to handle previous product result is 0
 b. besides max_product, also maintaining min_product for each position, so that later on we might need to multiple with the min_product to handle the negative product case  
 152 - https://leetcode.com/problems/maximum-product-subarray/
 
+**17. count submatrices with all ones**
+
+square submatrices, if matrix[i-1][j-1] == 1 then dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1, ans += dp[i][j]  
+1277 - https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+
