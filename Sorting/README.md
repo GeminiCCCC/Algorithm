@@ -23,3 +23,7 @@ def quickSort(nums, low, high):
     quickSort(nums, pi+1, high)
 
 ```
+
+**2. every time when asks you to find a pair or triplet whos sum satifies a condition, always try to sort the list and then use two pointer to solve it**
+
+259 - https://leetcode.com/problems/3sum-smaller/
