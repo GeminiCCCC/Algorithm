@@ -124,9 +124,11 @@ return dp[c]
 
 **8. Bit trick + DP**
 
-To union two sets of items, we can convert each set to its binary format and do | for two sets
-
+To union two sets of items, we can convert each set to its binary format and do | for two sets  
 1125 - https://leetcode.com/problems/smallest-sufficient-team/
+
+if list size is < 32, then use bit mask to mark the status of list of items (mask | 1 << i), because it's hard to check the status of each item and if use top down dp, it cannot hash list/set. When to check if the item's bit value is set (0 or 1), use mask & 1 << i == 0  
+1595 - https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/
 
 **9. Current color/number cannot be the same as preivous one( or can only has k consecutive times)**
 
