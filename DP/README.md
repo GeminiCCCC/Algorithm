@@ -130,6 +130,9 @@ To union two sets of items, we can convert each set to its binary format and do 
 if list size is < 32, then use bit mask to mark the status of list of items (mask | 1 << i), because it's hard to check the status of each item and if use top down dp, it cannot hash list/set. When to check if the item's bit value is set (0 or 1), use mask & 1 << i == 0  
 1595 - https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/
 
+whenever we need to check the state of list of items, use bit mask to check all of them in O(1) time  
+1434 - https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/
+
 **9. Current color/number cannot be the same as preivous one( or can only has k consecutive times)**
 
 for k consecutive times, we will need to add another dimension for k. And when k = 1 this is the special case, it means that we can get to k=1 from all previous state as long as the current number is not the same as previous number
