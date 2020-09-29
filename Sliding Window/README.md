@@ -4,5 +4,5 @@
 
 **2. When counting total sub arrays using sliding windows, loop right pointer(do not loop left pointer) and then update the sliding window, because the right pointer tells us how many more new sub arrays we will get by adding the right pointer num**
 
-when loop left pointer does not work, try loop right pointer  
+when loop left pointer does not work, try to loop right pointer  
 713 - https://leetcode.com/problems/subarray-product-less-than-k/
