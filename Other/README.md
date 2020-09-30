@@ -29,3 +29,7 @@ use DFS + Backtracking with person idx as parameter, for current person (idx), f
 **4. When see a start - end event with a value of it, separate it into two events, (start, value) and (end, -value), then sort by timestamp**
 
 1094 - https://leetcode.com/problems/car-pooling/
+
+**5. marking number in array to its negative version is a good way of flagging the number while keep the number's value, we usually use this technique to get O(1) space**
+
+41 - https://leetcode.com/problems/first-missing-positive/
