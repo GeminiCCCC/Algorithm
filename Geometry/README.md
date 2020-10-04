@@ -22,5 +22,5 @@ if angle < 0:
   angle += 360
 
 ```
-
+after rotating 360 degree, rotate 360 again to handle the range [315 - 45]  
 1610 - https://leetcode.com/problems/maximum-number-of-visible-points/
