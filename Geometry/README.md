@@ -11,3 +11,16 @@ a. find p1 and p2, then use Pythagorean theorem to find p3, a^2 + b^2 = c^2, the
 b. find center point and length of each diagonal line, find all combinations of two points, and calculate center point and length, use both as the key and store them into a hashTable, then loop though all the keys if there is more than two element in the value, then loop through all the values
 
 963 - https://leetcode.com/problems/minimum-area-rectangle-ii/
+
+**3. Calculate angle between two points**
+
+```python
+
+angle = math.atan2(xDiff, yDiff) * (180 / math.pi)
+
+if angle < 0:
+  angle += 360
+
+```
+
+1610 - https://leetcode.com/problems/maximum-number-of-visible-points/
