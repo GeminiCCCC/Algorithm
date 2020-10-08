@@ -1,11 +1,11 @@
-**1. Merge range length**
+## 1. Merge range length
 
 get left_length = lengths[num-1] and right_length = lengths[num+1], new length is left + right + 1, and only needs to update lengths[num-left] = lengths[num+right] = new_length
 
 128 - https://leetcode.com/problems/longest-consecutive-sequence/  
 1562 - https://leetcode.com/problems/find-latest-group-of-size-m/
 
-**2. 2D (m * n) pre_sum**
+## 2. 2D (m * n) pre_sum
 
 ```python
 pre_sum = [[0] * (n+1) for _ in range(m+1) # pad +1 to handle border element
@@ -21,15 +21,33 @@ sum = pre_sum[i][j] - pre_sum[i+l][j] - pre_sum[i][j+l] + pre_sum[i+l][j+l]
 
 1292 - https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 
-**3. How to settle debts between people with min transactions?**
+## 3. How to settle debts between people with min transactions?
 
 use DFS + Backtracking with person idx as parameter, for current person (idx), find the next person whose debt has opposite sign and always clear the current person's debt and then move the idx forward by one, because after the current transaction, 0 - idx are all settled, so that we can simply keep going forward. And the base case is when idx == n which means everyone is settled  
 465 - https://leetcode.com/problems/optimal-account-balancing/
 
-**4. When see a start - end event with a value of it, separate it into two events, (start, value) and (end, -value), then sort by timestamp**
+## 4. When see a start - end event with a value of it, separate it into two events, (start, value) and (end, -value), then sort by timestamp
 
 1094 - https://leetcode.com/problems/car-pooling/
 
-**5. marking number in array to its negative version is a good way of flagging the number while keep the number's value, we usually use this technique to get O(1) space**
+## 5. marking number in array to its negative version is a good way of flagging the number while keep the number's value, we usually use this technique to get O(1) space
 
 41 - https://leetcode.com/problems/first-missing-positive/
+
+## 6. Gray Code - two successive values differ in only one bit
+
+```python
+ans = []
+
+for i in range(1<<n):
+  ans.append(i^(i>>1))
+  
+return ans
+
+```
+
+89 - https://leetcode.com/problems/gray-code/
+
+use reverse gray code to get result  
+1611 - https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
+
