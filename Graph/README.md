@@ -27,7 +27,7 @@ for k in range(n):
       if M[i][k] and M[k][j] and M[i][k] + M[k][j] < M[i][j]:
         M[i][j] = M[i][k] + M[k][j]
 ```
-a viaration of Floyd-Warshall, since there is unique path for each i, j, just need to muptiply them together  
+a viaration of Floyd-Warshall, since there is unique path for each i, j, just need to multiply them together  
 399 - https://leetcode.com/problems/evaluate-division/
 
 ## 4. get all sub trees given nodes and edges
