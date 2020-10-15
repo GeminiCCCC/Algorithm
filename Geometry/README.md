@@ -16,7 +16,7 @@ b. find center point and length of each diagonal line, find all combinations of 
 
 ```python
 
-angle = math.atan2(xDiff, yDiff) * (180 / math.pi)
+angle = math.atan2(p2[1]-p1[1], p2[0]-p1[0]) * (180 / math.pi)
 
 if angle < 0:
   angle += 360
