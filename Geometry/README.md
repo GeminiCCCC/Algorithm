@@ -1,4 +1,4 @@
-## 1. Find rectangles parallel with x and y**
+## 1. Find rectangles parallel with x and y
 
 a. find p1 and p2, then p3 = (p1[x], p2[y]), p4 = (p2[x], p1[y])  
 b. preprocess all vertical lines (y1, y2) and stores them into a hashTable, whose key is x, two same vertical lines withe different x can form a rectangle, and value is list of vertical lines, then scan x from left to right, also use another hash table to store last x for each vertical line.
