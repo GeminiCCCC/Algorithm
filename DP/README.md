@@ -1,4 +1,4 @@
-**1. min-max problem**
+## 1. min-max problem
 
 How can you tell it's a min_max problem? 
 
@@ -14,15 +14,15 @@ And once we get the final answer for the most scores player A can win against pl
 
 1140 - https://leetcode.com/problems/stone-game-ii/
 
-**1.1 another kind of min max problem**
+1.1 another kind of min max problem
 
 375 - https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 
-**2. dp + graph (edges are the possible scenarios at current state)**
+## 2. dp + graph (edges are the possible scenarios at current state)
 
 568 - https://leetcode.com/problems/maximum-vacation-days/
 
-**3. For problem that has two moving points, then need to have three/four dimension dp, and for the problem start from one point and the stop point is not fixed, then top down DP is better**
+## 3. For problem that has two moving points, then need to have three/four dimension dp, and for the problem start from one point and the stop point is not fixed, then top down DP is better
 
 741 - https://leetcode.com/problems/cherry-pickup/ # for cherry pick problems: 1. when two people on the same cell, only collect cherry once. 2 use -sys.maxsize to indicate invalid path
 
@@ -30,17 +30,17 @@ And once we get the final answer for the most scores player A can win against pl
 
 1320 - https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/
 
-**4. String DP problems**
+## 4. String DP problems
 
 4.1 singe string: with in a range, split the range into all possible two sub strings, and calculate the first substring result(find a way to calculate the optimal result) and use dp to calculate the rest substring
 
 1531 - https://leetcode.com/problems/string-compression-ii/
 
-**5. DP to calculate all possible ways with 2D pre sum, 2D pre sum is the way to get counts with in a sub 2D matrix**
+## 5. DP to calculate all possible ways with 2D pre sum, 2D pre sum is the way to get counts with in a sub 2D matrix
 
 1444 - https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 
-**6. Buy and Sell Stock problems, always use buy[i] and sell[i] to store: by index i and last transaction was buy/sell, what's the max profit. And the answer is sell[n-1]**
+## 6. Buy and Sell Stock problems, always use buy[i] and sell[i] to store: by index i and last transaction was buy/sell, what's the max profit. And the answer is sell[n-1]
 
 309 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 
@@ -49,7 +49,7 @@ if you only allow to do k transactions, then need to have 2nd dimension for buy 
 123 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
 
-**7. knapsack**
+## 7. knapsack
 
 7.1 0-1
 
@@ -122,7 +122,7 @@ return dp[c]
 
 322 - https://leetcode.com/problems/coin-change/
 
-**8. Bit trick + DP**
+## 8. Bit trick + DP
 
 To union two sets of items, we can convert each set to its binary format and do | for two sets  
 1125 - https://leetcode.com/problems/smallest-sufficient-team/
@@ -133,13 +133,13 @@ if list size is < 32, then use bit mask to mark the status of list of items (mas
 whenever we need to check the state of list of items, use bit mask to check all of them in O(1) time  
 1434 - https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/
 
-**9. Current color/number cannot be the same as preivous one( or can only has k consecutive times)**
+## 9. Current color/number cannot be the same as preivous one( or can only has k consecutive times)
 
 for k consecutive times, we will need to add another dimension for k. And when k = 1 this is the special case, it means that we can get to k=1 from all previous state as long as the current number is not the same as previous number
 
 1223 - https://leetcode.com/problems/dice-roll-simulation/
 
-**10. minimum swaps to make two list strictly increasing**
+## 10. minimum swaps to make two list strictly increasing
 
 A[i] > A[i-1] and B[i] > B[i-1]  
 A[i] > B[i-1] and B[i] > A[i-1]
@@ -148,11 +148,11 @@ need to use two dp arrays, swap[i] and not_swap[i], because swap/not_swap will h
 
 801 - https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 
-**11. greedy + dp**
+## 11. greedy + dp
 
 1553 - https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
-**12. Palindrome**
+## 12. Palindrome
 
 Longest Palindrom substring:
 
@@ -174,21 +174,21 @@ a. use insert action
 b. calculate Longest Palindrom subsequence of s, and ans = len(s) - LPS  
 1312 - https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
-**13. Graph + dp**
+## 13. Graph + dp
 
 dp[i][j] = at ith step, ending at j node, minimum cost. And to reconstruct the path, we need another parents array, everytime we find a better path for dp[i][v], we update the parents[i][v]  
 1548 - https://leetcode.com/problems/the-most-similar-path-in-a-graph/
 
-**14. To check length of positive product, need to maintain positive[i] and negative[i] dp array, because previouly negative length could become positive length later**
+## 14. To check length of positive product, need to maintain positive[i] and negative[i] dp array, because previouly negative length could become positive length later
 
 1567 - https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/
 
-**15. when doing top down DP for string insert/delete/replace**
+## 15. when doing top down DP for string insert/delete/replace
 
 use dp(index, numOfStr) where index is the current index at originial string, numOfStr is the string length we have processes so far, the reason is because when is the insert case, index will stay the same but numOfStr will increase, just like we processed the new inserted char this time, which means the next dp call will still process index letter from the original string  
 420 - https://leetcode.com/problems/strong-password-checker/
 
-**16. how to handle 0 and negative product when getting the biggest product from a list**
+## 16. how to handle 0 and negative product when getting the biggest product from a list
 
 a. compare with current number to handle previous product result is 0  
 b. besides max_product, also maintaining min_product for each position, so that later on we might need to multiple with the min_product to handle the negative product case  
@@ -199,8 +199,12 @@ b. and since we will product all the element from the path, no need to handle 0 
 1594 - https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 
 
-**17. count submatrices with all ones**
+## 17. count submatrices with all ones
 
 square submatrices, if matrix[i-1][j-1] == 1 then dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1, ans += dp[i][j]  
 1277 - https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+
+## 18. use pre_sum to improve DP speed when you need to do ans += dp(i, fixed_num) where i is from start to n
+
+1621 - https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/
 
