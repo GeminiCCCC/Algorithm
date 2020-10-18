@@ -208,3 +208,12 @@ square submatrices, if matrix[i-1][j-1] == 1 then dp[i][j] = min(dp[i-1][j], dp[
 
 1621 - https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/
 
+## 19. one pattern of DP is dp[i] = max(dp[i], dp[j] + current_value) where j is between 0 and i-1, and also needs to check if value[i] and value[j] satisfied the condition.
+
+the most classic example is "longest increasing subsequence", all the numbers that dp[j] represents are increasing. And since there is only one condition and we can not change the ordering of the array, we don't need to do any sorting  
+300 - https://leetcode.com/problems/longest-increasing-subsequence/
+
+this example is a bit more complicated, since we need to satisfy two contidions, we cannot simply apply the above template because when condition between item[i] and item[j] are met we will be using dp[j] to calculate current dp[i], but we can't gaurentee two conditions are met for all the items dp[j] stands for. So we have to sort the array first  
+1626 - https://leetcode.com/problems/best-team-with-no-conflicts/
+
+
