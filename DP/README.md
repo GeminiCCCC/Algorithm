@@ -217,4 +217,8 @@ the most classic example is "longest increasing subsequence", all the numbers th
 this example is a bit more complicated, since we need to satisfy two contidions, we cannot simply apply the above template because when condition between item[i] and item[j] are met we will be using dp[j] to calculate current dp[i], but we can't gaurentee two conditions are met for all the items dp[j] stands for. So we have to sort the array first  
 1626 - https://leetcode.com/problems/best-team-with-no-conflicts/
 
+## 20. when top down is much faster than bottom up
+
+in bottom up for each state we need to try all possible previous states, while for top down at each state we only need to consider either move left or right finger  
+1320 - https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/
 
