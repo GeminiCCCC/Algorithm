@@ -214,6 +214,50 @@ square submatrices, if matrix[i-1][j-1] == 1 then dp[i][j] = min(dp[i-1][j], dp[
 the most classic example is "longest increasing subsequence", all the numbers that dp[j] represents are increasing. And since there is only one condition and we can not change the ordering of the array, we don't need to do any sorting  
 300 - https://leetcode.com/problems/longest-increasing-subsequence/
 
+To restore the sequence maintain a p[] array for the parent, and then restore it in the end
+```python
+dp = [1] * n
+p = [-1] * n
+
+for i in range(1,n):
+  for j in range(i)
+    if nums[i] > nums[j]:
+      if dp[j] + 1 > dp[i]:
+        dp[i] = dp[j] + 1
+        p[i] = j
+
+# find LIS ending pos
+cur = -sys.maxsize
+pos = 0
+for i ,val in enumerate(dp):
+  if val > cur:
+    pos = i
+    cur = val
+
+ans = []
+
+while pos != -1:
+  ans.append(nums[pos])
+  pos = p[pos]
+
+return ans[::-1]
+```
+
+nlogn solution
+```python
+dp = []
+
+for num in nums:
+  index = bisect.bisect_left(dp, num)
+  
+  if index < len(dp):
+    dp[index] = num
+  else:
+    dp.append(num)
+
+return ans
+```
+
 this example is a bit more complicated, since we need to satisfy two contidions, we cannot simply apply the above template because when condition between item[i] and item[j] are met we will be using dp[j] to calculate current dp[i], but we can't gaurentee two conditions are met for all the items dp[j] stands for. So we have to sort the array first  
 1626 - https://leetcode.com/problems/best-team-with-no-conflicts/
 
