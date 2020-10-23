@@ -51,3 +51,7 @@ return ans
 use reverse gray code to get result  
 1611 - https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
 
+## 7 when try all possible scenarios in BFS/DP etc, try to reduce the invalid scenarios
+
+find first not matched letter and then only make swap when the other letter is a valid option (not already matched with B[j] and match with B[i]  
+854 - https://leetcode.com/problems/k-similar-strings/
