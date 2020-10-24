@@ -55,3 +55,7 @@ use reverse gray code to get result
 
 find first not matched letter and then only make swap when the other letter is a valid option (not already matched with B[j] and match with B[i]  
 854 - https://leetcode.com/problems/k-similar-strings/
+
+## 8 when there are multiple conditions need to be meet, try to pre process to get result for one condition first.
+
+456 - https://leetcode.com/problems/132-pattern/
