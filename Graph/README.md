@@ -40,3 +40,7 @@ try all the nodes combinations  0 ~ 2^n, and then use bitmask + BFS/DFS to check
 1. try each node as starting point, then do BFS to get farthest node and update the max_distance  
 2. use any node as starting point, do BFS/DFS to find farthest node far1, then use far1 as starting point do another BFS/DFS to find farthest node far2, then do a third BFS/DFS to get the distance between far1 and far2 which will be the tree diameter, I prefer BFS  
 1617 - https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/
+
+## 6. 2D board can also be treated as graph when you can move in 4 directions, and when it asks you to find the min from start to end, it's time to use Dijkstra
+
+1631 - https://leetcode.com/problems/path-with-minimum-effort/
