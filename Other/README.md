@@ -59,3 +59,8 @@ find first not matched letter and then only make swap when the other letter is a
 ## 8 when there are multiple conditions need to be meet, try to pre process to get result for one condition first.
 
 456 - https://leetcode.com/problems/132-pattern/
+
+## 9 calculate ranking based on the value
+
+1331 - https://leetcode.com/problems/rank-transform-of-an-array/  
+1632 - https://leetcode.com/problems/rank-transform-of-a-matrix/
