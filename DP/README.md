@@ -266,3 +266,18 @@ this example is a bit more complicated, since we need to satisfy two contidions,
 in bottom up for each state we need to try all possible previous states, while for top down at each state we only need to consider either move left or right finger  
 1320 - https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/
 
+## 21. Kadane - get max subarray sum
+
+dp with space compression
+```python
+ans = -sys.maxsize
+cur_max = 0
+
+for num in nums:
+  cur_max = max(num, cur_max+num)
+  ans = max(ans, cur_max)
+  
+return ans
+```
+
+53 - https://leetcode.com/problems/maximum-subarray/submissions/
