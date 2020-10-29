@@ -284,3 +284,31 @@ return ans
 ```
 
 53 - https://leetcode.com/problems/maximum-subarray/submissions/
+
+# 22. use binary search from n^2 to nlogn
+
+LIS - use binary search to maintain a sorted list, and the length of list is the answer  
+300 - https://leetcode.com/problems/longest-increasing-subsequence/
+
+max sum of subarray not greater than k, maitain sorted presum and use binary search to find first previous presum list for the current presum
+```python
+sorted_presum = [0] # add 0 to handle empty list case
+ans = -sys.maxsize
+running_sum = 0
+
+for num in arr:
+  running_sum += num
+  target_sum = running_sum - k
+  index = bisect.bisect.left(sorted_presum, target_sum)
+  
+  if index < len(sorted_presum): # if index == len(sorted_presum) it means all the previous presum is smaller than the target, so no valid subarray whose sum is no greater than k
+    ans = max(ans, running_sum - sorted_presum[index])
+    
+    if ans == k:
+      return k
+    
+    bisect.insort(sorted_presum, running_sum)
+
+return ans
+```
+363 - https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
