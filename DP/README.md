@@ -248,14 +248,17 @@ nlogn solution
 dp = []
 
 for num in nums:
+  # maintain an increasing array, and the dp length will be the answer
   index = bisect.bisect_left(dp, num)
   
   if index < len(dp):
+    # replace the bigger number with the smaller number
     dp[index] = num
   else:
+    # if new number is greater than all the numbers, append (length will plus 1)
     dp.append(num)
 
-return ans
+return len(dp)
 ```
 
 this example is a bit more complicated, since we need to satisfy two contidions, we cannot simply apply the above template because when condition between item[i] and item[j] are met we will be using dp[j] to calculate current dp[i], but we can't gaurentee two conditions are met for all the items dp[j] stands for. So we have to sort the array first  
