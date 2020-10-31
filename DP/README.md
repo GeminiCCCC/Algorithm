@@ -285,7 +285,7 @@ return ans
 
 53 - https://leetcode.com/problems/maximum-subarray/submissions/
 
-# 22. use binary search from n^2 to nlogn
+## 22. use binary search from n^2 to nlogn
 
 LIS - use binary search to maintain a sorted list, and the length of list is the answer  
 300 - https://leetcode.com/problems/longest-increasing-subsequence/
