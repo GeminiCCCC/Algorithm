@@ -312,3 +312,23 @@ for num in arr:
 return ans
 ```
 363 - https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+
+## 23. number of subarrays with sum K
+```python
+dp = defaultdict(int)
+dp[0] = 1 # set 0 with 1 for the first subarray who starts at the beginning
+ans = 0
+running_sum = 0
+for num in nums:
+  runnning_sum += num
+  target = running_sum - K
+  
+  if target in dp:
+    ans += dp[target]
+  
+  dp[running_sum] += 1
+
+return ans
+```
+
+1074 - https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
