@@ -41,4 +41,5 @@ use hash table: key is the ending number, value is the pq of the lengths who is 
 ## 5. lazy greedy - go with one scenario until it can't go anymore, then among all the previously steps find the min/max (usually max) value to replace with another option so that you can continue going forward
 
 871 - https://leetcode.com/problems/minimum-number-of-refueling-stops/  
-1642 - https://leetcode.com/problems/furthest-building-you-can-reach/
+1642 - https://leetcode.com/problems/furthest-building-you-can-reach/  
+45 - https://leetcode.com/problems/jump-game-ii/
