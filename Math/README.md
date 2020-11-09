@@ -6,3 +6,13 @@ a. (left+right)! // left! // right!, we can precalculate all factorials from 1 t
 ## 2. use combination to check remaining possible string combination
 
 1643 - https://leetcode.com/problems/kth-smallest-instructions/
+
+## 3. calculate sum from n to n-k
+
+```python
+start = n
+end = n - k - 1
+start * (start+1) // 2 - end * (end+1) // 2
+```
+
+1648 - https://leetcode.com/problems/sell-diminishing-valued-colored-balls/
