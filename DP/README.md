@@ -332,3 +332,11 @@ return ans
 ```
 
 1074 - https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
+
+## 24. maintain state trick
+
+1. how to maintain left and up element in a 2D (m x n) grid when filling in from top-down and left-right, use tuple([""] * n) to represent the lastNValues, for new cell with (i, j), left = lastNValues[j-1], up = lastNValues[j]  
+1659 - https://leetcode.com/problems/maximize-grid-happiness/
+
+2. when filling in the squares from bottom right corner, use [0] * n to represent the current filled skyLine, and fill in the squares with the smallest hight  
+1240 - https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/
