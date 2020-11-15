@@ -35,3 +35,7 @@ for num in arr:
 
 return ans
 ```
+
+6. get longest/shortest subarray whose sum is k
+
+209 - https://leetcode.com/problems/minimum-size-subarray-sum/
