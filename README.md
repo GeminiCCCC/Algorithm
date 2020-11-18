@@ -12,7 +12,7 @@ review every week:
 300 - https://leetcode.com/problems/longest-increasing-subsequence/
 
 4. Kadane  
-53 - https://leetcode.com/problems/maximum-subarray/submissions/
+53 - https://leetcode.com/problems/maximum-subarray/
 
 5. max sum of subarray not greater than k
 ```python
