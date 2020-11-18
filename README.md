@@ -38,4 +38,5 @@ return ans
 
 6. get longest/shortest subarray whose sum is k
 
+325 - https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/  
 1658 - https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
