@@ -1,6 +1,6 @@
 # Greedy:
 
-**1520. https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/**
+1520. https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/
 
 Need to get all the valid substrings first, and then the problem becomes the schedule meeting problem, where you have one meeting room, what's the most meeting numbers you can schedule
 
@@ -19,7 +19,7 @@ Others:
 
 621 - https://leetcode.com/problems/task-scheduler/
 
-## 2. use greedy idea to find the smallest permutation from 1 to n based on 'D' or 'I'**
+## 2. use greedy idea to find the smallest permutation from 1 to n based on 'D' or 'I'
 
 use stack to keep track of how many consecutive Ds we have seen so far, and reverse the numbers when we see an 'I'
 
