@@ -66,6 +66,6 @@ def mergeSort(nums):
   return partition(nums)
 ```
 
-**2. every time when asks you to find a pair or triplet whos sum satifies a condition, always try to sort the list and then use two pointer to solve it**
+##3. every time when asks you to find a pair or triplet whose sum satifies a condition, always try to sort the list and then use two pointer to solve it
 
 259 - https://leetcode.com/problems/3sum-smaller/
