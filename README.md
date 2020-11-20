@@ -40,3 +40,7 @@ return ans
 
 325 - https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/  
 1658 - https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+
+7. how to search rotated array:
+
+81 - https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
