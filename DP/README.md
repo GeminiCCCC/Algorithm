@@ -340,3 +340,8 @@ return ans
 
 2. when filling in the squares from bottom right corner, use [0] * n to represent the current filled skyLine, and fill in the squares with the smallest hight  
 1240 - https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/
+
+## 25. digit DP:
+
+loop from the end, and if current digit is the same as target digit then dp[i] += dp[i+1], if smaller than the target digit then dp[i] += candidates ** (n-i-1)  
+902 - https://leetcode.com/problems/numbers-at-most-n-given-digit-set/
