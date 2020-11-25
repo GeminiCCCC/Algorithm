@@ -44,3 +44,7 @@ return ans
 7. how to search rotated array:
 
 81 - https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+
+8 - calculator:
+
+227 - https://leetcode.com/problems/basic-calculator-ii/
