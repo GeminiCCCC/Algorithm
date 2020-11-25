@@ -45,6 +45,6 @@ return ans
 
 81 - https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 
-8 - calculator:
+8. calculator:
 
 227 - https://leetcode.com/problems/basic-calculator-ii/
