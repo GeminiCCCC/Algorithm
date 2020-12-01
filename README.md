@@ -48,3 +48,7 @@ return ans
 8. calculator:
 
 227 - https://leetcode.com/problems/basic-calculator-ii/
+
+9. Dijkstra:
+
+1631 - https://leetcode.com/problems/path-with-minimum-effort/
