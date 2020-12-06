@@ -345,3 +345,8 @@ return ans
 
 loop from the end, and if current digit is the same as target digit then dp[i] += dp[i+1], if smaller than the target digit then dp[i] += candidates ** (n-i-1)  
 902 - https://leetcode.com/problems/numbers-at-most-n-given-digit-set/
+
+## 26. tree DP:
+
+for node u, and for each child v, from 0 to k ans += dp[u][j] * dp[v][k-j-1] (dp[u][j] means nodes has distance j to u not including the nodes in current child node v, and dp[v][k-j-1] means the nodes count to v whose distance is k-j-1, and the total combination is the mutiply, and after this, update dp[u] with the current child v, so that it can be used for next child node  
+https://codeforces.com/problemset/problem/161/D
