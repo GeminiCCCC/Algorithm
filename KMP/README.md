@@ -6,7 +6,7 @@ def findPattern(s, p):
   
   # build lps (longest prefix as suffix)
   j = 0
-  for i in range(1, m+1):
+  for i in range(1, m):
     while j > 0 and p[i] != p[j]:
       j = lps[j-1]
     
