@@ -23,7 +23,7 @@ running_sum = 0
 for num in arr:
   running_sum += num
   target_sum = running_sum - k
-  index = bisect.bisect.left(sorted_presum, target_sum)
+  index = bisect_left(sorted_presum, target_sum)
   
   if index < len(sorted_presum): # if index == len(sorted_presum) it means all the previous presum is smaller than the target, so no valid subarray whose sum is no greater than k
     ans = max(ans, running_sum - sorted_presum[index])
