@@ -52,3 +52,8 @@ return ans
 9. Dijkstra:
 
 1631 - https://leetcode.com/problems/path-with-minimum-effort/
+
+10. Knapsack
+
+416 - https://leetcode.com/problems/partition-equal-subset-sum/ 01  
+322 - https://leetcode.com/problems/coin-change/ complete
