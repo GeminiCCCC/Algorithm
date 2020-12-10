@@ -23,3 +23,10 @@ def getSum(i):
 ```
 
 1649 - https://leetcode.com/problems/create-sorted-array-through-instructions/
+
+## 3. use Fenwick Tree to find how many index has count smaller than the current index count
+
+a. get count for each index i  
+b. loop from right to left, freq[i] is the freqency for the current index number to the left. At the moment fenwick tree stores the count for each number(same number with different index will increase the number in fenwick tree, the index of ft[] is the number value, and the value of ft[] is the freqency for the number so far from right side) from right side to the current i. So for the current i we need to find how many indices on the right side (everything in the fenwick ATM) has count smaller than freq[i], which is the sum range from 1 to freq[i]-1 in the fenwick tree  
+c. increase the cnt and update fenwick tree for the next i  
+https://codeforces.com/problemset/problem/459/D
