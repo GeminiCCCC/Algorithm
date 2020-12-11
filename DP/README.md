@@ -134,7 +134,7 @@ if list size is < 32, then use bit mask to mark the status of list of items (mas
 whenever we need to check the state of list of items, use bit mask to check all of them in O(1) time  
 1434 - https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/
 
-## 9. Current color/number cannot be the same as preivous one( or can only has k consecutive times)
+## 9. Current color/number cannot be the same as previous one( or can only has k consecutive times)
 
 for k consecutive times, we will need to add another dimension for k. And when k = 1 this is the special case, it means that we can get to k=1 from all previous state as long as the current number is not the same as previous number
 
