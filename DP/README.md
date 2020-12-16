@@ -145,9 +145,11 @@ for k consecutive times, we will need to add another dimension for k. And when k
 A[i] > A[i-1] and B[i] > B[i-1]  
 A[i] > B[i-1] and B[i] > A[i-1]
 
-need to use two dp arrays, swap[i] and not_swap[i], because swap/not_swap will have different impact (similar like stocks problems, sell/not sell)
-
+need to use two dp arrays, swap[i] and not_swap[i], because swap/not_swap will have different impact (similar like stocks problems, sell/not sell)  
 801 - https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+
+another swap or not swap problem  
+https://codeforces.com/problemset/problem/706/C
 
 ## 11. greedy + dp
 
