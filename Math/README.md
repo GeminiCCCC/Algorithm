@@ -16,3 +16,14 @@ start * (start+1) // 2 - end * (end+1) // 2
 ```
 
 1648 - https://leetcode.com/problems/sell-diminishing-valued-colored-balls/
+
+## 4. gcd
+
+```python
+def gcd(a, b):
+  # Unless b == 0, the result will have the same sign as b
+  while b:
+    a, b = b, a % b
+  
+  return a  
+```
