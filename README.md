@@ -63,3 +63,13 @@ https://codeforces.com/problemset/problem/1381/B 01
 
 https://codeforces.com/problemset/problem/459/D
 
+12. gcd
+
+```python
+def gcd(a, b):
+  # Unless b == 0, the result will have the same sign as b
+  while b:
+    a, b = b, a % b
+  
+  return a  
+```
