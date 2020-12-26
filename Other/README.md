@@ -64,3 +64,10 @@ find first not matched letter and then only make swap when the other letter is a
 
 1331 - https://leetcode.com/problems/rank-transform-of-an-array/  
 1632 - https://leetcode.com/problems/rank-transform-of-a-matrix/
+
+## 10 below trick can convert "minimum moves to make sth consecutive" to "minimum moves to make sth into a single point"
+
+```python
+pos = [pos[i]-i for i in range(pos)] 
+```
+https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/
