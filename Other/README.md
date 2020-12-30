@@ -51,23 +51,27 @@ return ans
 use reverse gray code to get result  
 1611 - https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
 
-## 7 when try all possible scenarios in BFS/DP etc, try to reduce the invalid scenarios
+## 7. when try all possible scenarios in BFS/DP etc, try to reduce the invalid scenarios
 
 find first not matched letter and then only make swap when the other letter is a valid option (not already matched with B[j] and match with B[i]  
 854 - https://leetcode.com/problems/k-similar-strings/
 
-## 8 when there are multiple conditions need to be meet, try to pre process to get result for one condition first.
+## 8. when there are multiple conditions need to be meet, try to pre process to get result for one condition first.
 
 456 - https://leetcode.com/problems/132-pattern/
 
-## 9 calculate ranking based on the value
+## 9. calculate ranking based on the value
 
 1331 - https://leetcode.com/problems/rank-transform-of-an-array/  
 1632 - https://leetcode.com/problems/rank-transform-of-a-matrix/
 
-## 10 below trick can convert "minimum moves to make sth consecutive" to "minimum moves to make sth into a single point"
+## 10. below trick can convert "minimum moves to make sth consecutive" to "minimum moves to make sth into a single point"
 
 ```python
 pos = [pos[i]-i for i in range(pos)] 
 ```
 https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/
+
+## 11. for problem that all cells need to be updated at the same time, the in-place trick is to update the value to its negative value so that it can be different while maintaining the original value
+
+289 - https://leetcode.com/problems/game-of-life/
