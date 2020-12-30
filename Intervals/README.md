@@ -1,3 +1,7 @@
+sort by starting time: minimum number of intervals to cover the whole range  
+sort by ending time: maximum number of intervals are non-overlapping  
+435 - https://leetcode.com/problems/non-overlapping-intervals/
+
 ## 1. minimum meeting rooms
 
 sort by start time, and then use pq to maintain eariest ending time, every time we have a new meeting, if start >= earlies ending, then we can reuse that meeting room (by heapq.heappop from the pq), and the length of the pq will be the meeting room needed. which also means the most intersections for all the intervals
