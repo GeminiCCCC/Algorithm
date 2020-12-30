@@ -77,3 +77,8 @@ def gcd(a, b):
 13. preprocess from left and right, then loop through each location and use left and right array to get the min/max answer
 
 1671 - https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/
+
+14. given queries and a condition, return the ans for each query. Usually sort the queries and the other values. and build the data from smallest to biggest, every time we only use the numbers satisfied the current query.
+
+1697 - https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/  
+1707 - https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
