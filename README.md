@@ -73,3 +73,7 @@ def gcd(a, b):
   
   return a  
 ```
+
+13. preprocess from left and right, then loop through each location and use left and right array to get the min/max answer
+
+1671 - https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/
