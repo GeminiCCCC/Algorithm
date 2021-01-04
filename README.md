@@ -57,6 +57,7 @@ return ans
 
 416 - https://leetcode.com/problems/partition-equal-subset-sum/ 01  
 https://codeforces.com/problemset/problem/1381/B 01  
+494 - https://leetcode.com/problems/target-sum/ 01  
 322 - https://leetcode.com/problems/coin-change/ complete
 
 ## 11. Fenwick Tree
