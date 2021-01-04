@@ -83,3 +83,13 @@ https://codeforces.com/problemset/problem/1409/E
 
 1697 - https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/  
 1707 - https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
+
+## 15. use binary search to find the array's shortest and longest length
+
+1712 - https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/  
+
+## 16. LCS to LIS
+
+when one array has distinct value, LCS can be converted to LIS and solved in O(nlogn)  
+1713 - https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/  
+1143 - https://leetcode.com/problems/longest-common-subsequence/
