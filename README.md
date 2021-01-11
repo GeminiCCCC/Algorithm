@@ -62,7 +62,8 @@ https://codeforces.com/problemset/problem/1381/B 01
 
 ## 11. Fenwick Tree
 
-https://codeforces.com/problemset/problem/459/D
+https://codeforces.com/problemset/problem/459/D  
+1649 - https://leetcode.com/problems/create-sorted-array-through-instructions/
 
 ## 12. gcd
 
