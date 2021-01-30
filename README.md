@@ -60,10 +60,11 @@ https://codeforces.com/problemset/problem/1381/B 01
 494 - https://leetcode.com/problems/target-sum/ 01  
 322 - https://leetcode.com/problems/coin-change/ complete
 
-## 11. Fenwick Tree
+## 11. Fenwick Tree & Segment Tree
 
 https://codeforces.com/problemset/problem/459/D  
-1649 - https://leetcode.com/problems/create-sorted-array-through-instructions/
+1649 - https://leetcode.com/problems/create-sorted-array-through-instructions/  
+https://codeforces.com/problemset/problem/380/C
 
 ## 12. gcd
 
@@ -95,3 +96,7 @@ https://codeforces.com/problemset/problem/1409/E
 when one array has distinct value, LCS can be converted to LIS and solved in O(nlogn)  
 1713 - https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/  
 1143 - https://leetcode.com/problems/longest-common-subsequence/
+
+## 17. tree dp
+
+https://codeforces.com/problemset/problem/1324/F
