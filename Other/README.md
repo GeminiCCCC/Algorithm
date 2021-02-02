@@ -70,7 +70,7 @@ find first not matched letter and then only make swap when the other letter is a
 ```python
 pos = [pos[i]-i for i in range(pos)] 
 ```
-https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/
+1703 - https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/
 
 ## 11. for problem that all cells need to be updated at the same time, the in-place trick is to update the value to its negative value so that it can be different while maintaining the original value
 
