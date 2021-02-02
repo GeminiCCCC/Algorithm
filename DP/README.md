@@ -353,6 +353,6 @@ loop from the end, and if current digit is the same as target digit then dp[i] +
 for node u, and for each child v, from 0 to k ans += dp[u][j] * dp[v][k-j-1] (dp[u][j] means nodes has distance j to u not including the nodes in current child node v, and dp[v][k-j-1] means the nodes count to v whose distance is k-j-1, and the total combination is the mutiply, and after this, update dp[u] with the current child v, so that it can be used for next child node  
 https://codeforces.com/problemset/problem/161/D
 
-# 27，when dp[i][j] means from i to j, and in state transition function there is dp[i+1][j] (compareing with palindrome's dp[i+1][j-1], becauuse j-1 has already been processed, so it's ok, but in this case dp[i+1][j] is not processed), and needs to loop length first then loop start index
+## 27. when dp[i][j] means from i to j, and in state transition function there is dp[i+1][j] (comparing with palindrome's dp[i+1][j-1], becauuse j-1 has already been processed, so it's ok, but in this case dp[i+1][j] is not processed), and needs to loop length first then loop start index
 
 1690 - https://leetcode.com/problems/stone-game-vii/
