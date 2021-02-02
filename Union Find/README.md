@@ -1,4 +1,4 @@
-**template:**
+## template:
 
 ```python
 class DSU:
@@ -32,7 +32,7 @@ class DSU:
 
 ```
 
-**1. to find if a graph has cycle**
+## 1. to find if a graph has cycle
 ```python
 def hasCycle(edges):
     # build the graph from edges, if we are looping all the neighbors here, we will only create one edge for we can simply loop through the edges
@@ -52,16 +52,16 @@ def hasCycle(edges):
     return False
 ```
 
-**2. use size for the component to solve problem**
+## 2. use size for the component to solve problem
 
 803. https://leetcode.com/problems/bricks-falling-when-hit/
 
-**3. maintain the groupCount while doing the union**
+## 3. maintain the groupCount while doing the union
 
 besides union find we can also maintain the first and last count of each group because when getting left and right side count, we will only use first or last element  
 1562 - https://leetcode.com/problems/find-latest-group-of-size-m/
 
-**4. use union find class to build a graph**
+## 4. use union find class to build a graph
 
 a. when union two nodes increase the edge by 1  
 b. when no need to union two nodes, it means that this edge can be skipped/removed  
@@ -71,7 +71,7 @@ e. in the end if the edges in the DSU class == n - 1, then the graph is traversa
 
 1579 - https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
 
-**5. use union find to build MST (minimum spinning tree)  - Kruskal algorithm**
+## 5. use union find to build MST (minimum spinning tree)  - Kruskal algorithm
 
 build weighted edges, sort edges by weight, union edge one by one, only add weight when union happen  
 1584 - https://leetcode.com/problems/min-cost-to-connect-all-points/
