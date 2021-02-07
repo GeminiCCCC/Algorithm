@@ -47,7 +47,7 @@ return ans
 
 ## 8. calculator:
 
-227 - https://leetcode.com/problems/basic-calculator-ii/
+772 - https://leetcode.com/problems/basic-calculator-iii/
 
 ## 9. Dijkstra:
 
