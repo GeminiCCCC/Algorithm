@@ -45,3 +45,5 @@ for i in range(1, n):
     fact[i] = (i * fact[i-1]) % mod
     invFact[i] = pow(fact[i], mod-2, mod)
 ```
+
+1830 - https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/
