@@ -23,3 +23,9 @@ while cur > 0:
 ```
 
 1655 - https://leetcode.com/problems/distribute-repeating-integers/
+
+## 4. distributive property
+
+(a1^a2) & (b1^b2) = (a1&b1) ^ (a1&b2) ^ (a2&b1) ^ (a2&b2)
+
+1835 - https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/
