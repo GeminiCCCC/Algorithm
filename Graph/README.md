@@ -44,3 +44,12 @@ try all the nodes combinations  0 ~ 2^n, and then use bitmask + BFS/DFS to check
 ## 6. 2D board can also be treated as graph when you can move in 4 directions, and when it asks you to find the min from start to end, it's time to use Dijkstra
 
 1631 - https://leetcode.com/problems/path-with-minimum-effort/
+
+## 7. find bridge in graph - tarjan's algorithm
+
+1. start from any node do dfs
+2. assign each unvisited node a label
+3. for current node u and each neighbor v, if dfs(v) returns a label <= curLabel, edge (u,v) is part of a cycle and can be removed
+4. the edges didn't get removed are the bridge
+
+1192 - https://leetcode.com/problems/critical-connections-in-a-network/
