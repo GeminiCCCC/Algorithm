@@ -53,3 +53,8 @@ try all the nodes combinations  0 ~ 2^n, and then use bitmask + BFS/DFS to check
 4. the edges didn't get removed are the bridge
 
 1192 - https://leetcode.com/problems/critical-connections-in-a-network/
+
+## 8. Travelling salesman problem - TSP, minimum cost to visit each node once  
+use bit mask 
+
+943 - https://leetcode.com/problems/find-the-shortest-superstring/
