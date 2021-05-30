@@ -9,3 +9,7 @@
 ## 3. use buckets to store the frequency of the number
 
 1608 - https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
+
+## 4. find max difference between neighbors after sorting
+
+164 - https://leetcode.com/problems/maximum-gap/
