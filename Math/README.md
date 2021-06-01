@@ -27,3 +27,8 @@ def gcd(a, b):
   
   return a  
 ```
+
+## 5. ceiling issue with float
+
+If ceiling with sum of some floats, we may end up getting n+1 instead of n, the fix is to subtrac a esplon value like 1e-9 every time before ceiling  
+1883 - https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/
