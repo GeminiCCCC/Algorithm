@@ -75,3 +75,7 @@ pos = [pos[i]-i for i in range(pos)]
 ## 11. for problem that all cells need to be updated at the same time, the in-place trick is to update the value to its negative value so that it can be different while maintaining the original value
 
 289 - https://leetcode.com/problems/game-of-life/
+
+## 12. use product to find all possible combination
+
+1900 - https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/
