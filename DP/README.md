@@ -356,3 +356,8 @@ https://codeforces.com/problemset/problem/161/D
 ## 27. when dp[i][j] means from i to j, and in state transition function there is dp[i+1][j] (comparing with palindrome's dp[i+1][j-1], becauuse j-1 has already been processed, so it's ok, but in this case dp[i+1][j] is not processed), and needs to loop length first then loop start index
 
 1690 - https://leetcode.com/problems/stone-game-vii/
+
+## 28. process all dp state and check from start to get smallest answer
+
+871 - https://leetcode.com/problems/minimum-number-of-refueling-stops/  
+1883 - https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/
