@@ -79,3 +79,10 @@ pos = [pos[i]-i for i in range(pos)]
 ## 12. use product to find all possible combination
 
 1900 - https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/
+
+## 13. how to check if num exists in range (l,r):
+
+use presum for each number at each index and check if the cnt > 0  
+use binary search on index list for each number  idx1 = bisect_left(l), idx2 = bisect_right(r), check if idx2 > idx1
+
+1906 - https://leetcode.com/problems/minimum-absolute-difference-queries/
