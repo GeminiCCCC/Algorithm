@@ -58,3 +58,7 @@ try all the nodes combinations  0 ~ 2^n, and then use bitmask + BFS/DFS to check
 use bit mask 
 
 943 - https://leetcode.com/problems/find-the-shortest-superstring/
+
+## 9. Cycle detection in directed graph
+
+1059 - https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
