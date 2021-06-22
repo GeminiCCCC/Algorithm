@@ -60,9 +60,9 @@ use bit mask
 943 - https://leetcode.com/problems/find-the-shortest-superstring/
 
 ## 9. Cycle detection in directed graph  
--1 - not visited
-0 - being processed (including all the children nodes)
-1 - processed (including all the children nodes)
+-1 - not visited  
+0 - being processed (including all the children nodes)  
+1 - processed (including all the children nodes)  
 
 if any neighbor is 0, then found cycle  
 
