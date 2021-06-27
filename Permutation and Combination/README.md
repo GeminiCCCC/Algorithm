@@ -46,4 +46,5 @@ for i in range(1, n):
     invFact[i] = pow(fact[i], mod-2, mod)
 ```
 
-1830 - https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/
+1830 - https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/  
+1916 - https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/
