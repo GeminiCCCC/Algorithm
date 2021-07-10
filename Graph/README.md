@@ -67,3 +67,7 @@ use bit mask
 if any neighbor is 0, then found cycle  
 
 1059 - https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+
+## 10. Dilkistra is to improve the cost for each node, no need to maintain visited set, and if there is 2nd contraint, will need to improve both
+
+1928 - https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/
