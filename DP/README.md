@@ -346,7 +346,8 @@ return ans
 ## 25. digit DP:
 
 loop from the end, and if current digit is the same as target digit then dp[i] += dp[i+1], if smaller than the target digit then dp[i] += candidates ** (n-i-1)  
-902 - https://leetcode.com/problems/numbers-at-most-n-given-digit-set/
+902 - https://leetcode.com/problems/numbers-at-most-n-given-digit-set/  
+600 - https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/
 
 ## 26. tree DP:
 
