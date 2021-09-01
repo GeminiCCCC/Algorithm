@@ -86,3 +86,7 @@ use presum for each number at each index and check if the cnt > 0
 use binary search on index list for each number  idx1 = bisect_left(l), idx2 = bisect_right(r), check if idx2 > idx1
 
 1906 - https://leetcode.com/problems/minimum-absolute-difference-queries/
+
+## 14. when need to remove num while looping nums, can use Counter and decrease cnt instead of remove to improve performance
+
+1982 - https://leetcode.com/problems/find-array-given-subset-sums/
