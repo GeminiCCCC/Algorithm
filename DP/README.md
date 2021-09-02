@@ -362,3 +362,8 @@ https://codeforces.com/problemset/problem/161/D
 
 871 - https://leetcode.com/problems/minimum-number-of-refueling-stops/  
 1883 - https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/
+
+## 29. convert standard dp to presum dp to reduce time complexity
+
+1977 - https://leetcode.com/problems/number-of-ways-to-separate-numbers/
+
