@@ -367,3 +367,7 @@ https://codeforces.com/problemset/problem/161/D
 
 1977 - https://leetcode.com/problems/number-of-ways-to-separate-numbers/
 
+## 30. sometimes when getting min/max value, instead of improve ans only you can also improve another dp state at the same time, so that this state can be removed from dp definition
+
+1986 - https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/
+
