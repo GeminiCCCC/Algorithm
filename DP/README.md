@@ -371,3 +371,11 @@ https://codeforces.com/problemset/problem/161/D
 
 1986 - https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/
 
+## 31. Constrained subset/subsequences problems
+
+1) remove duplicates: find closest same letter with index j, dup = dp[j-1],    dp[i] = dp[i-1] * 2 - dup  
+940 - https://leetcode.com/problems/distinct-subsequences-ii/  
+1987 - https://leetcode.com/problems/number-of-unique-good-subsequences/
+
+2) unique prime numbers in the subset  
+1994 - https://leetcode.com/problems/the-number-of-good-subsets/
