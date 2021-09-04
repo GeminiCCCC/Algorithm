@@ -26,3 +26,7 @@ after rotating 360 degree, rotate 360 again to handle the range [315 - 45]
 1610 - https://leetcode.com/problems/maximum-number-of-visible-points/
 
 ## 4. when checking the points angle, don't forget to handle the point at the same location separately by creating a "same" variable because those points will always be on the same line of be seen 
+
+## 5. how to get convex hell? need to find most clockwise point. How? check cross product of two vectors is greater than 0 or not
+
+587 - https://leetcode.com/problems/erect-the-fence/
