@@ -98,3 +98,9 @@ for (int p=2;p*p<=n;p++)
 }
 ```
 
+## 9. use Sieve variation to find all numbers have the same common divisor
+
+all numbers have the same prime divisor can be swapped with each other, use union find to group them together and compare each number with sortedNum one to check if correct number can be swapped to here
+
+1998 - https://leetcode.com/problems/gcd-sort-of-an-array/ 
+
