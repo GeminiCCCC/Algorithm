@@ -90,3 +90,9 @@ use binary search on index list for each number  idx1 = bisect_left(l), idx2 = b
 ## 14. when need to remove num while looping nums, can use Counter and decrease cnt instead of remove to improve performance
 
 1982 - https://leetcode.com/problems/find-array-given-subset-sums/
+
+## 15. when ask to find lexicographically smallest subsequence, use stack and greedy to pop the top letter when the current letter is smaller than the top one with some constrains
+
+2030 - https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/  
+316 - https://leetcode.com/problems/remove-duplicate-letters/
+
